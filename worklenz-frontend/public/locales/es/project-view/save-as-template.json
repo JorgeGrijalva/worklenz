@@ -21,7 +21,7 @@
     "description": "Descripción",
     "subTasks": "Sub Tasks"
   },
-  "cancel": "Cancel",
-  "save": "Save",
-  "templateNamePlaceholder": "Enter template name"
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "templateNamePlaceholder": "Ingresar nombre de la plantilla"
 }

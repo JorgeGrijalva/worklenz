@@ -1,0 +1,82 @@
+Missing files in ES: [ 'admin-center/configuration.json', 'settings/account-deletion.json' ]
+\n--- File: account-setup.json ---
+Key: "organizationStepCategory4" | EN: "Startups" | ES: "Startups"
+Key: "tasksStepLabel" | EN: "Type a few tasks that you are going to do in" | ES: "MISSING"
+Key: "tasksStepAddAnother" | EN: "Add another" | ES: "MISSING"
+Key: "orgCategoryStartups" | EN: "Startups" | ES: "Startups"
+Key: "organizationTypeFreelancer" | EN: "Freelancer" | ES: "Freelancer"
+Key: "organizationTypeStartup" | EN: "Startup" | ES: "Startup"
+Key: "howHeardAboutTwitter" | EN: "Twitter" | ES: "Twitter"
+Key: "howHeardAboutLinkedin" | EN: "LinkedIn" | ES: "LinkedIn"
+\n--- File: admin-center/current-bill.json ---
+Key: "totalSeats" | EN: "Total seats" | ES: "MISSING"
+Key: "availableSeats" | EN: "Available seats" | ES: "MISSING"
+Key: "addMoreSeats" | EN: "Add more seats" | ES: "MISSING"
+Key: "startup" | EN: "Startup" | ES: "Startup"
+Key: "continueWith" | EN: "Continue with {{plan}}" | ES: "MISSING"
+Key: "changeToPlan" | EN: "Change to {{plan}}" | ES: "MISSING"
+Key: "submitSuccess" | EN: "Code redeemed successfully!" | ES: "MISSING"
+Key: "submitSuccessDescription" | EN: "Your account has been updated with the new credits." | ES: "MISSING"
+Key: "percentUsed" | EN: "% Used" | ES: "MISSING"
+Key: "sizeUnits" | EN: "[object Object]" | ES: "MISSING"
+Key: "seatPerMonth" | EN: "seat / month" | ES: "MISSING"
+Key: "totalPrice" | EN: "Total $" | ES: "MISSING"
+Key: "tryForFree" | EN: "Try for free" | ES: "MISSING"
+Key: "subscriptionUpdateSuccess" | EN: "Subscription updated successfully!" | ES: "MISSING"
+Key: "paymentProcessorError" | EN: "Failed to load payment processor" | ES: "MISSING"
+Key: "seatsLabel" | EN: "Seats:" | ES: "MISSING"
+Key: "requiredField" | EN: "*" | ES: "MISSING"
+Key: "purchaseSeatsTextSingle" | EN: "To continue, you'll need to purchase an additional seat." | ES: "MISSING"
+Key: "singleUserNote" | EN: "You currently have 1 seat available." | ES: "MISSING"
+Key: "selectSeatsTextSingle" | EN: "Please select the number of additional seats to purchase." | ES: "MISSING"
+Key: "phoneNumberPattern" | EN: "07xxxxxxxx" | ES: "MISSING"
+\n--- File: admin-center/overview.json ---
+Key: "emailAddress" | EN: "Email Address" | ES: "MISSING"
+Key: "enterOrganizationName" | EN: "Enter organization name" | ES: "MISSING"
+Key: "ownerSuffix" | EN: " (Owner)" | ES: "MISSING"
+\n--- File: admin-center/users.json ---
+Key: "name" | EN: "Name" | ES: "MISSING"
+\n--- File: all-project-list.json ---
+Key: "no" | EN: "No" | ES: "No"
+\n--- File: phases-drawer.json ---
+Key: "no" | EN: "No" | ES: "No"
+\n--- File: project-drawer.json ---
+Key: "no" | EN: "No" | ES: "No"
+\n--- File: project-view/save-as-template.json ---
+Key: "cancel" | EN: "Cancel" | ES: "Cancel"
+Key: "save" | EN: "Save" | ES: "Save"
+Key: "templateNamePlaceholder" | EN: "Enter template name" | ES: "Enter template name"
+\n--- File: reporting-members.json ---
+Key: "excelButton" | EN: "Excel" | ES: "Excel"
+\n--- File: reporting-projects.json ---
+Key: "excelButton" | EN: "Excel" | ES: "Excel"
+\n--- File: reporting-sidebar.json ---
+Key: "overview" | EN: "Overview" | ES: "MISSING"
+Key: "projects" | EN: "Projects" | ES: "MISSING"
+Key: "members" | EN: "Members" | ES: "MISSING"
+Key: "timeReports" | EN: "Time Reports" | ES: "MISSING"
+Key: "estimateVsActual" | EN: "Estimate Vs Actual" | ES: "MISSING"
+\n--- File: schedule.json ---
+Key: "total" | EN: "Total" | ES: "Total"
+\n--- File: settings/categories.json ---
+Key: "categoryColumn" | EN: "Category" | ES: "Category"
+Key: "deleteConfirmationTitle" | EN: "Are you sure?" | ES: "Are you sure?"
+Key: "deleteConfirmationOk" | EN: "Yes" | ES: "Yes"
+Key: "deleteConfirmationCancel" | EN: "Cancel" | ES: "Cancel"
+Key: "searchPlaceholder" | EN: "Search by name" | ES: "Search by name"
+Key: "emptyText" | EN: "Categories can be created while updating or creating projects." | ES: "Categories can be created while updating or creating projects."
+Key: "colorChangeTooltip" | EN: "Click to change color" | ES: "Click to change color"
+\n--- File: settings/notifications.json ---
+Key: "title" | EN: "Notifications Settings" | ES: "MISSING"
+\n--- File: settings/sidebar.json ---
+Key: "account-deletion" | EN: "Delete Account" | ES: "MISSING"
+\n--- File: task-list-filters.json ---
+Key: "ok" | EN: "OK" | ES: "OK"
+\n--- File: task-template-drawer.json ---
+Key: "templateNameRequired" | EN: "Template name is required" | ES: "MISSING"
+\n--- File: templateDrawer.json ---
+Key: "legal" | EN: "Legal" | ES: "Legal"
+Key: "marketing" | EN: "Marketing" | ES: "Marketing"
+\n--- File: time-report.json ---
+Key: "total" | EN: "Total" | ES: "Total"
+\nTotal missing or untranslated keys: 61

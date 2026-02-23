@@ -159,3 +159,4 @@ CREATE OR REPLACE TRIGGER tasks_task_subscriber_notify_done
     WHEN (OLD.status_id IS DISTINCT FROM NEW.status_id)
 EXECUTE FUNCTION tasks_task_subscriber_notify_done_trigger();
 -- Task status change trigger
+\n\nDROP TRIGGER IF EXISTS trg_reset_progress_on_mode_change ON projects;\nCREATE TRIGGER trg_reset_progress_on_mode_change\n    BEFORE UPDATE\n    ON projects\n    FOR EACH ROW\n    WHEN (OLD.use_manual_progress IS DISTINCT FROM NEW.use_manual_progress OR\n          OLD.use_weighted_progress IS DISTINCT FROM NEW.use_weighted_progress OR\n          OLD.use_time_progress IS DISTINCT FROM NEW.use_time_progress)\nEXECUTE FUNCTION reset_progress_on_mode_change();

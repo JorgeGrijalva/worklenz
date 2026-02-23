@@ -4,5 +4,10 @@
   "membersText": "Miembros",
   "timeReportsText": "Informes de Tiempo",
   "estimateVsActualText": "Estimado vs Real",
-  "currentOrganizationTooltip": "Organización actual"
+  "currentOrganizationTooltip": "Organización actual",
+  "overview": "Resumen",
+  "projects": "Proyectos",
+  "members": "Miembros",
+  "timeReports": "Informes de Tiempo",
+  "estimateVsActual": "Estimado Vs Real"
 }

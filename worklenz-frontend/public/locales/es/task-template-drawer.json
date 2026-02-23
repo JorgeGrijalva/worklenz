@@ -7,5 +7,6 @@
   "selectedTasks": "Tareas Seleccionadas",
   "removeTask": "Eliminar",
   "cancelButton": "Cancelar",
-  "saveButton": "Guardar"
+  "saveButton": "Guardar",
+  "templateNameRequired": "El nombre de la plantilla es requerido"
 }
