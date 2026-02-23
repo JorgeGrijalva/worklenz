@@ -782,7 +782,9 @@ CREATE TABLE IF NOT EXISTS projects (
     estimated_working_days INTEGER                  DEFAULT 0,
     use_manual_progress    BOOLEAN                  DEFAULT FALSE              NOT NULL,
     use_weighted_progress  BOOLEAN                  DEFAULT FALSE              NOT NULL,
-    use_time_progress      BOOLEAN                  DEFAULT FALSE              NOT NULL
+    use_time_progress      BOOLEAN                  DEFAULT FALSE              NOT NULL,
+    currency               TEXT                     DEFAULT 'USD'::TEXT,
+    budget                 NUMERIC(15, 2)           DEFAULT 0.00
 );
 
 ALTER TABLE projects
