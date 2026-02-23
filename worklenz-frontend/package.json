@@ -38,6 +38,7 @@
     "chartjs-plugin-datalabels": "^2.2.0",
     "cors": "^2.8.5",
     "date-fns": "^4.1.0",
+    "dayjs": "^1.11.19",
     "dompurify": "^3.2.5",
     "gantt-task-react": "^0.3.9",
     "html2canvas": "^1.4.1",
@@ -45,7 +46,9 @@
     "i18next-browser-languagedetector": "^8.2.0",
     "i18next-http-backend": "^2.7.3",
     "i18next-localstorage-backend": "^4.2.0",
+    "immer": "^11.1.4",
     "jspdf": "^3.0.0",
+    "lodash": "^4.17.23",
     "mixpanel-browser": "^2.56.0",
     "nanoid": "^5.1.5",
     "primereact": "^10.8.4",
@@ -62,10 +65,12 @@
     "react-virtuoso": "^4.13.0",
     "react-window": "^1.8.11",
     "react-window-infinite-loader": "^1.0.10",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
+    "reselect": "^5.1.1",
     "socket.io-client": "^4.8.1",
     "tinymce": "^7.7.2",
-    "web-vitals": "^4.2.4",
-    "worklenz": "file:"
+    "web-vitals": "^4.2.4"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",

@@ -1,0 +1,3 @@
+packages:
+  - 'worklenz-backend'
+  - 'worklenz-frontend'

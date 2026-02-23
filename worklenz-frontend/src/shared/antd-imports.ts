@@ -269,7 +269,8 @@ export type {
 } from 'antd/es';
 
 // Dayjs
-export { default as dayjs } from 'dayjs';
+import dayjs from 'dayjs';
+export { dayjs };
 export type { Dayjs } from 'dayjs';
 
 // Optimized message utilities

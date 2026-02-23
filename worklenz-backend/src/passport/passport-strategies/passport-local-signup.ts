@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import {Strategy as LocalStrategy} from "passport-local";
 
 import {DEFAULT_ERROR_MESSAGE} from "../../shared/constants";

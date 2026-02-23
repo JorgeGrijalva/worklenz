@@ -1,0 +1,21 @@
+{
+    "name": "worklenz-monorepo",
+    "private": true,
+    "scripts": {
+        "dev:backend": "cd worklenz-backend && pnpm ts-node --transpile-only src/bin/www.ts",
+        "dev:frontend": "cd worklenz-frontend && pnpm run dev",
+        "dev": "concurrently \"pnpm dev:backend\" \"pnpm dev:frontend\"",
+        "install:all": "pnpm install -r"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    },
+    "pnpm": {
+        "onlyBuiltDependencies": [
+            "bcrypt",
+            "sharp",
+            "esbuild",
+            "segfault-handler"
+        ]
+    }
+}

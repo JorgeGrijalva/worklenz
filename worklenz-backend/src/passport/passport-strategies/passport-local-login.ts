@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { Strategy as LocalStrategy } from "passport-local";
 import { log_error } from "../../shared/utils";
 import db from "../../config/db";
